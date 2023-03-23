@@ -64,7 +64,11 @@ const Header = () => {
           alignItems="center"
         >
           <nav>
-            
+            {<a href="mailto: hello@example.com">{<FontAwesomeIcon icon={faEnvelope} size="2x" />}</a>}
+            {<a href="https://github.com">{<FontAwesomeIcon icon={faGithub} size="2x"/>}</a>}
+            {<a href="https://linkedin.com">{<FontAwesomeIcon icon={faLinkedin} size="2x"/>}</a>}
+            {<a href="https://medium.com">{<FontAwesomeIcon icon={faMedium} size="2x"/>}</a>}
+            {<a href="https://stackoverflow.com">{<FontAwesomeIcon icon={faStackOverflow} size="2x"/>}</a>}
           </nav>
           <nav>
             <HStack spacing={8}>
